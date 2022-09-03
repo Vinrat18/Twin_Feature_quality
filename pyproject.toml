@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "feature-quality"
+version = "0.1.0"
+description = ""
+authors = ["Vinaya Kumar"]
+readme = "README.md"
+packages = [{include = "feature_quality"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
